@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64081B1E21F0678E000F2141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64081B1D21F0678E000F2141 /* AppDelegate.swift */; };
+		64081B2021F0678E000F2141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64081B1F21F0678E000F2141 /* ViewController.swift */; };
+		64081B2321F0678E000F2141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64081B2121F0678E000F2141 /* Main.storyboard */; };
+		64081B2521F06790000F2141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64081B2421F06790000F2141 /* Assets.xcassets */; };
+		64081B2821F06790000F2141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64081B2621F06790000F2141 /* LaunchScreen.storyboard */; };
+		64081B3321F06790000F2141 /* HDMDragDropRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64081B3221F06790000F2141 /* HDMDragDropRowTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64081B2F21F06790000F2141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64081B1221F0678E000F2141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64081B1921F0678E000F2141;
+			remoteInfo = HDMDragDropRow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64081B1A21F0678E000F2141 /* HDMDragDropRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDMDragDropRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64081B1D21F0678E000F2141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64081B1F21F0678E000F2141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64081B2221F0678E000F2141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64081B2421F06790000F2141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64081B2721F06790000F2141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64081B2921F06790000F2141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64081B2E21F06790000F2141 /* HDMDragDropRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDMDragDropRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64081B3221F06790000F2141 /* HDMDragDropRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDMDragDropRowTests.swift; sourceTree = "<group>"; };
+		64081B3421F06790000F2141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64081B1721F0678E000F2141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64081B2B21F06790000F2141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64081B1121F0678E000F2141 = {
+			isa = PBXGroup;
+			children = (
+				64081B1C21F0678E000F2141 /* HDMDragDropRow */,
+				64081B3121F06790000F2141 /* HDMDragDropRowTests */,
+				64081B1B21F0678E000F2141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64081B1B21F0678E000F2141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64081B1A21F0678E000F2141 /* HDMDragDropRow.app */,
+				64081B2E21F06790000F2141 /* HDMDragDropRowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64081B1C21F0678E000F2141 /* HDMDragDropRow */ = {
+			isa = PBXGroup;
+			children = (
+				64081B1D21F0678E000F2141 /* AppDelegate.swift */,
+				64081B1F21F0678E000F2141 /* ViewController.swift */,
+				64081B2121F0678E000F2141 /* Main.storyboard */,
+				64081B2421F06790000F2141 /* Assets.xcassets */,
+				64081B2621F06790000F2141 /* LaunchScreen.storyboard */,
+				64081B2921F06790000F2141 /* Info.plist */,
+			);
+			path = HDMDragDropRow;
+			sourceTree = "<group>";
+		};
+		64081B3121F06790000F2141 /* HDMDragDropRowTests */ = {
+			isa = PBXGroup;
+			children = (
+				64081B3221F06790000F2141 /* HDMDragDropRowTests.swift */,
+				64081B3421F06790000F2141 /* Info.plist */,
+			);
+			path = HDMDragDropRowTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64081B1921F0678E000F2141 /* HDMDragDropRow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64081B3721F06790000F2141 /* Build configuration list for PBXNativeTarget "HDMDragDropRow" */;
+			buildPhases = (
+				64081B1621F0678E000F2141 /* Sources */,
+				64081B1721F0678E000F2141 /* Frameworks */,
+				64081B1821F0678E000F2141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDMDragDropRow;
+			productName = HDMDragDropRow;
+			productReference = 64081B1A21F0678E000F2141 /* HDMDragDropRow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64081B2D21F06790000F2141 /* HDMDragDropRowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64081B3A21F06790000F2141 /* Build configuration list for PBXNativeTarget "HDMDragDropRowTests" */;
+			buildPhases = (
+				64081B2A21F06790000F2141 /* Sources */,
+				64081B2B21F06790000F2141 /* Frameworks */,
+				64081B2C21F06790000F2141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64081B3021F06790000F2141 /* PBXTargetDependency */,
+			);
+			name = HDMDragDropRowTests;
+			productName = HDMDragDropRowTests;
+			productReference = 64081B2E21F06790000F2141 /* HDMDragDropRowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64081B1221F0678E000F2141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Hiralee;
+				TargetAttributes = {
+					64081B1921F0678E000F2141 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					64081B2D21F06790000F2141 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 64081B1921F0678E000F2141;
+					};
+				};
+			};
+			buildConfigurationList = 64081B1521F0678E000F2141 /* Build configuration list for PBXProject "HDMDragDropRow" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64081B1121F0678E000F2141;
+			productRefGroup = 64081B1B21F0678E000F2141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64081B1921F0678E000F2141 /* HDMDragDropRow */,
+				64081B2D21F06790000F2141 /* HDMDragDropRowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64081B1821F0678E000F2141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64081B2821F06790000F2141 /* LaunchScreen.storyboard in Resources */,
+				64081B2521F06790000F2141 /* Assets.xcassets in Resources */,
+				64081B2321F0678E000F2141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64081B2C21F06790000F2141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64081B1621F0678E000F2141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64081B2021F0678E000F2141 /* ViewController.swift in Sources */,
+				64081B1E21F0678E000F2141 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64081B2A21F06790000F2141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64081B3321F06790000F2141 /* HDMDragDropRowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64081B3021F06790000F2141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64081B1921F0678E000F2141 /* HDMDragDropRow */;
+			targetProxy = 64081B2F21F06790000F2141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64081B2121F0678E000F2141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64081B2221F0678E000F2141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64081B2621F06790000F2141 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64081B2721F06790000F2141 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64081B3521F06790000F2141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64081B3621F06790000F2141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64081B3821F06790000F2141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HDMDragDropRow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiralee.HDMDragDropRow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64081B3921F06790000F2141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HDMDragDropRow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiralee.HDMDragDropRow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64081B3B21F06790000F2141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HDMDragDropRowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiralee.HDMDragDropRowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDMDragDropRow.app/HDMDragDropRow";
+			};
+			name = Debug;
+		};
+		64081B3C21F06790000F2141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HDMDragDropRowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiralee.HDMDragDropRowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HDMDragDropRow.app/HDMDragDropRow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64081B1521F0678E000F2141 /* Build configuration list for PBXProject "HDMDragDropRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64081B3521F06790000F2141 /* Debug */,
+				64081B3621F06790000F2141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64081B3721F06790000F2141 /* Build configuration list for PBXNativeTarget "HDMDragDropRow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64081B3821F06790000F2141 /* Debug */,
+				64081B3921F06790000F2141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64081B3A21F06790000F2141 /* Build configuration list for PBXNativeTarget "HDMDragDropRowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64081B3B21F06790000F2141 /* Debug */,
+				64081B3C21F06790000F2141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64081B1221F0678E000F2141 /* Project object */;
+}
